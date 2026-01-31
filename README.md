@@ -11,7 +11,7 @@ We benchmarked and compared the SNNs running on Loihi 2 against ANNs deployed on
 Our results show that SNNs on Loihi 2 achieve substantial energy efficiency, consuming 10–55× less dynamic energy and 4–7× lower total power than ANNs on the Jetson Nano and MacBook CPU, while enabling real-time inference at 62–170 samples per second, albeit with some degradation in detection performance. However, using our ANN-to-SNN distillation approach, the distilled SNN models retain at least 88% of the ANN detection performance, as measured by mAP and F1-score metrics.
 
 * The code includes ANN models, SNN models (with intel Loihi 2 compatible LIF neurons), SNN model training (Quantization aware) with spikingjelly library, ANN to SNN knowledge distillation based training.
-* * ffff
+  * ffff
 * It also includes files which export SNN models trained with Spikingjelly library to loihi 2 lava-dl compatible models.
 
 * Further, this repository includes .ipynb files which we used for running and benchmarking on intel Loihi 2.
