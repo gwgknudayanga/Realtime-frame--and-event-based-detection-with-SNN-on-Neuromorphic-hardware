@@ -19,7 +19,7 @@ Our results show that SNNs on Loihi 2 achieve substantial energy efficiency, con
   * spjelly_to_slayer_anchorfree_img_based.py
 
 * Further, this repository includes .ipynb files which we used for running and benchmarking on intel Loihi 2.
-
+  
 * Code for training Event-to-image reconstructor's encoder based lightweight SNN model (Model-3 in our paper).
 * Training SDNN models are available at.
 
