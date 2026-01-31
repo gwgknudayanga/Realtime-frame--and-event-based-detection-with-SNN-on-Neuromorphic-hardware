@@ -1,4 +1,4 @@
-# Realtime-frame--and-event-based-detection-with-SNN-on-Neuromorphic-hardware
+# Realtime-frame--and-event-based-object-detection-with-SNN-on-Neuromorphic-hardware
 
 This code repository accompanies our submitted journal paper entitled “Real-Time Frame- and Event-Based Object Detection with SNNs on Edge Neuromorphic Hardware: Design, Deployment, and Benchmarking.”
 
@@ -19,4 +19,7 @@ Our results show that SNNs on Loihi 2 achieve substantial energy efficiency, con
   * spjelly_to_slayer_anchorfree_img_based.py
 
 * Further, this repository includes .ipynb files which we used for running and benchmarking on intel Loihi 2.
+
+* Code for training Event-to-image reconstructor's encoder based lightweight SNN model (Model-3 in our paper).
+* Training SDNN models are available at.
 
